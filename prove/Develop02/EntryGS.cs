@@ -1,6 +1,6 @@
 class EntryGS
 {
-    string date,prompt,response;
+    string date, prompt, response;
 
 
     public EntryGS(string _date ,string _prompt, string _response){
