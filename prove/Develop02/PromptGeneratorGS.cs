@@ -1,4 +1,5 @@
-class PromptGenratorGS{
+class PromptGenratorGS
+{
 
     List <string>prompts;
 
