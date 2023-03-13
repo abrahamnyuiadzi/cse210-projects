@@ -1,11 +1,11 @@
 using System;
 
-class ProgramGS
+class Program
 {
     static void Main(string[] args)
     {
         // Create menu and user input variables 
-        JournalGS    journalGS = new JournalGS ();
+        Journal   journalGS = new Journal ();
         int          menuUserinput =0;
 
        List<string>  menu =new List<string> 
