@@ -18,6 +18,8 @@ class Program
 
         System.Console.WriteLine("what is your choice ");
         String userInput =Console.ReadLine();
+     Userjournal Myjournal = new Userjournal();
+     JournalEntries journalEntries = new JournalEntries();
 
           
            
@@ -27,14 +29,16 @@ class Program
 
           if (userInput == "1") {
 
-
+journalEntries.JournalEntry();
            
 
           }
      else if (userInput=="2"){
+      
+      Myjournal.displayCSV();
      }
      else if (userInput=="3"){
-      
+      Myjournal.SaveFromCSV();
      }
      
      
