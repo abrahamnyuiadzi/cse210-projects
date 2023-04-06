@@ -31,6 +31,10 @@ namespace PasswordGenerator
   if (GenerateConfig.IsSymbolsCase)
            Characters.AddRange(GetCharacters(charType.SymbolsCase));
 
+           Random random = new Random();
+           List<char> seletedchars =Enumerable.Range(0, generateConfig.Length ).Select(c => chararters [random.Next(Characters.count)]).ToList();
+           GeneratedPassword= string.Join("" ,selectedChars);
+
            return GeneratedPassword;
 
 

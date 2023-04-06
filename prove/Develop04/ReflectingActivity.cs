@@ -5,7 +5,7 @@ public class ReflectingActivity{
       public  String DisplayMessage()
     {
 
-  return "welcome to Breathing  Activity  thsi activity will help you relax ";
+  return "welcome to Reflecting Activity  thsi activity will help you relax ";
 
     }
       public  void GetTime()

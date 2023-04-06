@@ -2,7 +2,7 @@ using System;
  public class Scripture{
 
 
-private List<Word> _Words = new List<Word> ();
+private List<Scripture> _Words = new List<Scripture> ();
 
 private Reference _Reference;
 
