@@ -4,7 +4,7 @@ namespace PasswordGenerator{
     public  partial class MainForm : Form 
     {
 
-//
+//this 
  public MainForm(){
 
     InitializeComponent();
